@@ -40,6 +40,9 @@ function main() {
         }
     })
 
+
+
+    
     // Add ToDO to localStorage
     addBtn.addEventListener("click", () => {
         const input = addInput.value.trim();
