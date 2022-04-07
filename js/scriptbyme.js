@@ -39,7 +39,6 @@ function main() {
             localStorage.setItem("todos", JSON.stringify(todos));
         }
     })
-
     // Add ToDO to localStorage
     addBtn.addEventListener("click", () => {
         const input = addInput.value.trim();
